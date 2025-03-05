@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+    }
+    button {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h2>Customer Registration Form</h2>
+
+<form>
+    <label>Full Name:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Password:</label>
+    <input type="password" required>
+
+    <label>Phone Number:</label>
+    <input type="text" required>
+
+    <label>Country:</label>
+    <select>
+        <option>Germany</option>
+        <option>UK</option>
+        <option>Congo</option>
+        <option>Others</option>
+    </select>
+
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
+
